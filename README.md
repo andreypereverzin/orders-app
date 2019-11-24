@@ -28,6 +28,8 @@ http://localhost:8080/roche-orders/actuator/health
 http://localhost:8080/roche-orders/actuator/info
 
 ## Implementation Notes
+The specification can be found in `doc/Home_Assignment.pdf` file.
+
 This implementation uses h2 in-memory database for data persistence.
 
 DELETE endpoint is not implemented for orders as this is not defined by the specification.
