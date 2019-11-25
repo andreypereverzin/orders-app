@@ -18,7 +18,9 @@ After the application is started its Swagger documentation is available on the U
 
 http://localhost:8080/roche-orders/swagger-ui.html
 
-(in JSON format Swagger documentation is available on this URL: http://localhost:8080/roche-orders/v2/api-docs)
+This URL provides interface for testing the application.
+ 
+In JSON format Swagger documentation is available on this URL: http://localhost:8080/roche-orders/v2/api-docs.
 
 ## Actuator Endpoints
 The following actuator endpoints are available after the application is started:
@@ -43,3 +45,4 @@ As defined by the specification products are not physically deleted from the dat
 3) Error responses should be more informative and contain detailed description of the error
 4) In real application proper SQL database should be used instead of h2 in-memory database
 5) Other Actuator endpoints should be enabled (/metrics, /env etc)
+6) Include generation of project reports in `pom.xml` (Cobertura, PMD etc.)
